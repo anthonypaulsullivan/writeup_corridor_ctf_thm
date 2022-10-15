@@ -15,7 +15,7 @@ Clicking on any of the doors will take us to a new empty room (no flags), howeve
 
 2. Noting the challenge information carefully -- "Examine the URL endpoints you access as you navigate the website and note the hexadecimal values you find (they look an awful lot like a hash, don't they?)" -- we learn the URL endpoints or the last part of the address in the address bar above is an MD5 hash that we'll need to crack!
 
-3. Time to pick up our hoody from the floor, search Youtube for some Blade Runner themed hacking music and set our fancy-schmancy new LED's to flash red and blue. We're all hackers from here on in, Johnny.
+3. Time to pick our hoody up off the floor, search Youtube for some Blade Runner themed hacking music and set our fancy-schmancy new LED's to flash red and blue. We're all hackers from here on in, Johnny.
 
 4. The easiest solution to crack MD5 hashes is to use what are called Rainbow Tables which will compare our hashes to known words or number combinations. Here's an online tool to make things quicker: https://crackstation.net/
 
