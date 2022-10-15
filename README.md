@@ -1,5 +1,6 @@
 # writeup_corridor_ctf_thm
 Writeup for TryHackMe's Corridor room
+https://tryhackme.com/
 Created by tryhackme, JohnHammond, cmnatic, timtaylor
 
 --------------------------------------
@@ -19,7 +20,7 @@ Clicking on any of the doors will take us to a new empty room (no flags), howeve
 4. The easiest solution to crack MD5 hashes is to use what are called Rainbow Tables which will compare our hashes to known words or number combinations. Here's an online tool to make things quicker: https://crackstation.net/
 
 5. Pasting in our hash and clicking "I'm not a robot" if you're positive you're not, we can crack it.
-e.g. 8f14e45fceea167a5a36dedd4bea2543 will reveal the number 7.
+e.g. 8f14e45fceea167a5a36dedd4bea2543 will reveal a single digit number.
 
 6. Now we know the rooms are numbered. The hint we'll need is "Can you find your way back to where you came?"
 This refers to the number zero (the beginning) which we'll need to convert to an MD5 hash as per original room addresses or URLS.
